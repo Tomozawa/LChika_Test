@@ -1,0 +1,20 @@
+c:\st\stm32cubeide_1.9.0\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7-m/nofp/bits/gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+../Core/Inc/CRSLibtmp/Can/Stm32/RM0008/utility.hpp:22:37:constexpr CRSLib::IntegerTypes::u32 CRSLib::Can::Stm32::RM0008::decode_mir(CRSLib::IntegerTypes::u32)	24	static
+../Core/Inc/CRSLibtmp/Can/Stm32/RM0008/utility.hpp:35:37:constexpr CRSLib::IntegerTypes::u32 CRSLib::Can::Stm32::RM0008::encode_mir(CRSLib::IntegerTypes::u32)	24	static
+../Core/Inc/CRSLibtmp/utility.hpp:88:38:constexpr std::underlying_type_t<T> CRSLib::to_underlying(T) [with T = CRSLib::Can::Stm32::RM0008::TestMode]	16	static
+../Core/Inc/CRSLibtmp/Can/Stm32/RM0008/can_bus.hpp:37:17:constexpr CRSLib::IntegerTypes::u32 CRSLib::Can::Stm32::RM0008::BitTiming::calc_btr() const	24	static
+../Core/Inc/CRSLibtmp/Can/Stm32/RM0008/can_bus.hpp:62:8:void CRSLib::Can::Stm32::RM0008::CanBusInit::apply(CRSLib::Can::Stm32::RM0008::CanRegister*) const	32	static
+../Core/Inc/CRSLibtmp/Can/Stm32/RM0008/can_bus.hpp:93:3:CRSLib::Can::Stm32::RM0008::CanBus::CanBus(CRSLib::Can::Stm32::RM0008::CanRegister*, const CRSLib::Can::Stm32::RM0008::CanBusInit&)	24	static
+../Core/Inc/CRSLibtmp/Can/Stm32/RM0008/can_bus.hpp:114:22:bool CRSLib::Can::Stm32::RM0008::CanBus::post(CRSLib::IntegerTypes::u32, const CRSLib::Can::DataField&) const	56	static
+../Core/Inc/CRSLibtmp/Can/Stm32/RM0008/can_bus.hpp:213:22:bool CRSLib::Can::Stm32::RM0008::CanBus::abort_transmit(CRSLib::IntegerTypes::u32) const	16	static
+../Core/Inc/CRSLibtmp/Can/Stm32/RM0008/can_bus.hpp:220:8:void CRSLib::Can::Stm32::RM0008::CanBus::leave_sleep()	16	static
+../Core/Inc/CRSLibtmp/Can/Stm32/RM0008/can_bus.hpp:232:8:void CRSLib::Can::Stm32::RM0008::CanBus::enter_initialization()	16	static
+../Core/Inc/CRSLibtmp/Can/Stm32/RM0008/can_bus.hpp:238:8:void CRSLib::Can::Stm32::RM0008::CanBus::leave_initialization()	16	static
+../Core/Src/wrapper.cpp:32:7:void wrapper_cpp()	24	static
+../Core/Src/wrapper.cpp:49:6:void init_encoder(TIM_HandleTypeDef&)	16	static
+../Core/Src/wrapper.cpp:54:6:bool post_u16(long unsigned int, CRSLib::IntegerTypes::u16, CRSLib::Can::Stm32::RM0008::CanBus&)	40	static
+../Core/Inc/CRSLibtmp/bit_operation.hpp:9:24:constexpr void CRSLib::BitOperation::set_bit(T&, std::type_identity_t<_Winc>) [with T = volatile long unsigned int]	16	static
+../Core/Inc/CRSLibtmp/bit_operation.hpp:39:24:constexpr void CRSLib::BitOperation::change_masked_range(T&, std::type_identity_t<_Winc>, std::type_identity_t<_Winc>) [with T = volatile long unsigned int]	24	static
+../Core/Inc/CRSLibtmp/bit_operation.hpp:15:24:constexpr void CRSLib::BitOperation::clear_bit(T&, std::type_identity_t<_Winc>) [with T = volatile long unsigned int]	16	static
+../Core/Inc/CRSLibtmp/bit_operation.hpp:33:38:constexpr bool CRSLib::BitOperation::is_bit_clear(T, std::type_identity_t<_Winc>) [with T = long unsigned int]	16	static
+../Core/Inc/CRSLibtmp/bit_operation.hpp:27:38:constexpr bool CRSLib::BitOperation::is_bit_set(T, std::type_identity_t<_Winc>) [with T = long unsigned int]	16	static
